@@ -1,0 +1,30 @@
+class Movie {
+  string title;
+  string genre;
+  int rating;
+
+  void playit() {
+    system.out.println("Playing the movie");
+    }
+  }
+
+public class movietesting {
+  public static void main(string[] args) {
+    Movie one = new Movie();
+    one.title = "maine pyar kiya";
+    one.genre = "family drama";
+    one.rating = -2;
+
+    Movie two = new Movie();
+    two.title = "rab ne bana di jodi";
+    two.genre = "romance";
+    two.rating = 1;
+
+    Movie three =  new Movie();
+    three.title = "Gully Boy";
+    three.genre = "Artistic";
+    three.rating = 3;
+
+    three.playit()l
+    }
+  }
